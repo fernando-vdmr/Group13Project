@@ -1,6 +1,6 @@
 # Group13Project
 CSCI 3308 Spring 17 project
-Team Name:
+Team Name:Hound Dogs
 Description:
 Vision Statement:
 Motivation: We have seen/used other dating apps such as tinder and feel that there is no representation for those people who like dogs/animals. We also considered people who can't own dogs themselves, but is single and wanting to date a dog owner. There's lots of dating sites and apps out there and we think that our app will add some creativity and options to that pool.
