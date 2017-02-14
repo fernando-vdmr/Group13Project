@@ -18,6 +18,7 @@ Risks:
     
 Risk Mitigation Plan:
   Lucas- Willing to learn java, I can get access to an android phone emulator to test the sofware on. I can easily find open source resources to learn how to develop an android app.
+  
 Version Control: We will be using Github to version control our mobile application.
   Xi - Had learned java before, can probably pick it up relatively quickly. Can probably research where to start and will be able to build on that progress. 
 
