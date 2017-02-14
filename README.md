@@ -15,10 +15,12 @@ Risks:
   Lucas- No experience developing apps, no experience in java which I believe is what we would use to make the app. Not a huge amount of programming experience in general. Only languages I know are c++, matlab, and c.
     General Problems- maybe lack of access to a server to store photos of people using the app.
   Xi - Little to no experience developing apps. Not well versed in java, last time I used java was in high school. Not sure where to start for the app development.	
+  Fernando - Limited experience developing apps, specially for Android and with Java.
     
 Risk Mitigation Plan:
   Lucas- Willing to learn java, I can get access to an android phone emulator to test the sofware on. I can easily find open source resources to learn how to develop an android app.
   Chad- Found that we can use c++ to code for both OS allowing for an easier time coding, without having to learn a new language.
+  Fernando - If we use C++ to do the apps, I will be able to put my experience to work and will help me work with Android. 
   
 Version Control: We will be using Github to version control our mobile application.
   Xi - Had learned java before, can probably pick it up relatively quickly. Can probably research where to start and will be able to build on that progress. 
