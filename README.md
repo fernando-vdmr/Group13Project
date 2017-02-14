@@ -13,10 +13,12 @@ Motivation: We have seen/used other dating apps such as tinder and feel that the
 Risks:
   Lucas- No experience developing apps, no experience in java which I believe is what we would use to make the app. Not a huge amount of programming experience in general. Only languages I know are c++, matlab, and c.
     General Problems- maybe lack of access to a server to store photos of people using the app.
+  Xi - Little to no experience developing apps. Not well versed in java, last time I used java was in high school. Not sure where to start for the app development.	
     
 Risk Mitigation Plan:
   Lucas- Willing to learn java, I can get access to an android phone emulator to test the sofware on. I can easily find open source resources to learn how to develop an android app.
 Version Control: We will be using Github to version control our mobile application.
+  Xi - Had learned java before, can probably pick it up relatively quickly. Can probably research where to start and will be able to build on that progress. 
 
 Development Method: Agile method?? 
 
