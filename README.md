@@ -1,7 +1,7 @@
 # Group13Project
-CSCI 3308 Spring 17 project
+CSCI 3308 Spring 17 Project
 
-Team Name:Hound Dogs
+Team Name: **Hound Dogs**
 
 Members: Chad Ribisi, Fernando Mercado, Lucas Sward, Mahalia Evans, Xi Gao
 
@@ -15,18 +15,18 @@ Development Method: Agile method in order to prioritize features and streamline 
 
 Collaboration Tool: Currently we are using Facebook Messenger and Google docs to communicate and collabarate. This allows for all us to quickly message the others and a platform where we can express our ideas and the others can add to it. We will soon have Slack setup to further assist us in communicating our ideas between one another. We are now using Trello as the Project Management tool in order to keep track of the product backlog. 
 
-Risks: <br />
+Risks:
 * General Problems - May lack access to a server to store photos of people using the app. <br />
 * Lucas - No experience developing apps, no experience in java which I believe is what we would use to make the app. Not a huge amount of programming experience in general. Only languages I know are c++, matlab, and c. <br  />
 * Xi - Little to no experience developing apps. Not well versed in java, last time I used java was in high school. Not sure where to start for the app development. <br />
 * Fernando - Limited experience developing apps, specially for Android and with Java. <br />
 * Mahalia - No experience with Swift languaging and creation of such an intrecate application for IOS. <br  />
     
-Risk Mitigation Plan: <br /> 
+Risk Mitigation Plan: 
 * Lucas - Willing to learn java, I can get access to an android phone emulator to test the sofware on. I can easily find open source resources to learn how to develop an android app. <br />
 * Chad - Found that we can use c++ to code for both OS allowing for an easier time coding, without having to learn a new language. <br />
 * Fernando - If we use C++ to do the apps, I will be able to put my experience to work and will help me work with Android. <br />
 * Mahalia - Will learn Swift for the purpose of this project and future applications. Willing to learn other languges that can be applicable for the expansion of this project.  <br />
   
-Version Control: We will be using Github to version control our mobile application. <br />
-* Xi - Had learned java before, can probably pick it up relatively quickly. Can probably research where to start and will be able to build on that progress. * 
+Version Control: We will be using Github to version control our mobile application.
+* Xi - Had learned java before, can probably pick it up relatively quickly. Can probably research where to start and will be able to build on that progress. <br />
