@@ -1,14 +1,8 @@
 create table if not exists `Users` (
- `Username` int(1) not null auto_increment,
+ `Username` varchar(40) not null auto_increment,
  `Password` varchar(40) not null,
- `Dogs` int(1) not null,
- `price` float not null,
+ `Dog_Image` blob not null,
  primary key (`id`)
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 AUTO_INCREMENT=7;
 
-insert into `store` (`id`, `name`, `qty`, `price`) values
- (1, 'apple', 10, 1),
- (2, 'pear', 5, 2),
- (3, 'banana', 10, 1.5),
- (6, 'lemon', 100, 0.1),
- (5, 'orange', 50, 0.2);
+
