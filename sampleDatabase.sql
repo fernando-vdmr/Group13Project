@@ -4,8 +4,8 @@ drop table profilePicture;
 
 create table if not exists users (username char(20) primary key, password char(20), dogBreed char(20), owner boolean not null default 0);
 create table if not exists dogs (name char(20), amount integer);
-create table if not exists profilePicture (username references users(username), picturePath char(20));
-
+create table if not exists profilePicture (username primary key, picturePath char(20));
+/* (username references users(username),*/
 insert into users values (1,'Chad', 'password', 'Siberian Husky', true);
 
 insert into dogs values ('Alaskan Malamute',7);
