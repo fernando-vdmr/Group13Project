@@ -1,22 +1,29 @@
-drop table users;
-drop table dogs;
-drop table profilePicture;
+create table if not exists `users` (
+	`username` char(20),
+	`password` char(20),
+	`dogBreed` char(20), 
+	`owner` boolean not null default 0,
+	primary key (`username`)
+	);
+create table if not exists `DogPicture` (
+	`username` char(20), 
+	`picturePath` char(20),
+	`location` int,
+	foreign key (`username`) references users(`username`)
+	);
 
-create table if not exists users (username char(20) primary key, password char(20), dogBreed char(20), owner boolean not null default 0);
-create table if not exists dogs (name char(20), amount integer);
-create table if not exists profilePicture (username primary key, picturePath char(20));
-/* (username references users(username),*/
-insert into users values (1,'Chad', 'password', 'Siberian Husky', true);
+insert into users values ('Chad89', 'password', 'Siberian Husky', true);
+insert into users values ('John223', 'doglover22', 'Golden Retriever', true);
+insert into users values ('Fernando332', 'dogs4Life6969', 'Chihuahua', true);
+insert into users values ('Xi554', 'OOODOGS123', 'Beagle', true);
+insert into users values ('Mahalia223', 'yayanimals2239', 'Collie', true);
+insert into users values ('Lucas557', 'BOXER$andGoldens337', 'Boxer', true);
+insert into users values ('Jane3Doe', 'pompom443luv', 'Pomeranian', true);
 
-insert into dogs values ('Alaskan Malamute',7);
-insert into dogs values ('Australian Shepherd',5);
-insert into dogs values ('Beagle',12);
-insert into dogs values ('Collie',1);
-insert into dogs values ('Labrador Retriever',8);
-insert into dogs values ('Mastiff',2);
-insert into dogs values ('Pomeranian',5);
-insert into dogs values ('Poodle',1);
-insert into dogs values ('Pug',20);
-insert into dogs values ('Siberian Husky',6);
-insert into dogs values ('St. Bernard',4);
-insert into dogs values ('Yorkshire Terrier',1);
+insert into DogPicture values ('John223', 'users/pics/mydog', 2823942.209385);
+insert into DogPicture values ('Chad89', 'users/pics/mydog', 2823942.209385);
+insert into DogPicture values ('Fernando332', 'users/pics/mydog', 2823942.209385);
+insert into DogPicture values ('Xi554', 'users/pics/mydog', 2823942.209385);
+insert into DogPicture values ('Mahalia223', 'users/pics/mydog', 2823942.209385);
+insert into DogPicture values ('Lucas557', 'users/pics/mydog', 2823942.209385);
+insert into DogPicture values ('Jane3Doe', 'users/pics/mydog', 2823942.209385);	
