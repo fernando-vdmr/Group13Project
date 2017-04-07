@@ -81,7 +81,7 @@
 			</form>
 		</div>
 		<div id="tab3_login" class="tab_content_login" style="display:none;">
-			<h3>Lose something?</h3>
+			<h3> Forgot something?</h3>
 			<p>Enter your username or email to reset your password.</p>
 			<form method="post" action="<?php echo site_url('wp-login.php?action=lostpassword', 'login_post') ?>" class="wp-user-form">
 				<div class="username">
@@ -96,26 +96,6 @@
 					<input type="hidden" name="user-cookie" value="1" />
 				</div>
 			</form>
-		</div>
-	</div>
-
-	<?php } else { // is logged in ?>
-
-	<div class="sidebox">
-		<h3>Welcome, <?php echo $user_identity; ?></h3>
-		<div class="usericon">
-			<?php global $userdata; get_currentuserinfo(); echo get_avatar($userdata->ID, 60); ?>
-
-		</div>
-		<div class="userinfo">
-			<p>You&rsquo;re logged in as <strong><?php echo $user_identity; ?></strong></p>
-			<p>
-				<a href="<?php echo wp_logout_url('index.php'); ?>">Log out</a> | 
-				<?php if (current_user_can('manage_options')) { 
-					echo '<a href="' . admin_url() . '">' . __('Admin') . '</a>'; } else { 
-					echo '<a href="' . admin_url() . 'profile.php">' . __('Profile') . '</a>'; } ?>
-
-			</p>
 		</div>
 	</div>
 
